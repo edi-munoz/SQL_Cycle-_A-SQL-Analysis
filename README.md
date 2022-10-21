@@ -78,3 +78,22 @@ Additionally, I updated `ride_distance` to be rounded by 2 decimal places throug
 
 ---
 ### Analyze
+
+There is a total of 5,132,861 riders in this cleaned data set, with 56% being annual members and 44% casual riders.
+
+[insert screenshot image here]
+
+Furthermore, I looked at the percentages of bike types in this data set with classic bikes taking the lead at 59%, then electric bikes at 37%, and docked bikes 4%. 
+
+[insert screenshot image here]
+
+I examined the top 10 most popular stations for these riders with the number 1 spot being a blank value. I decided not to delete rows associated with the blank station name because if deleted 11% of my total data would be lost. I do not consider this bad data either as the goal is to examine how casual riders and annual members differ, and I believe there are more important aspects than the name of stations that have little to do with riders. I would like to point out that I wish to fill in the names of these stations in the future using the longitutde and latitude values provided, but because of the complexity of exact geological coordinates, I do not have the skills at the moment to resolve this missing data. 
+
+
+[insert screenshot image here]
+
+Next, I explored the most popular stations by rider status: 
+
+[insert screenshot image here]
+
+Afterwards, I proceeded to analyze the average distances and durations between casual riders and annual members, but I found an interesting discovery. Casual riders have a higher average for riding longer than annual members. I 
