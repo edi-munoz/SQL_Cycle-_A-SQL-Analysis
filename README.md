@@ -33,8 +33,7 @@ The dataset I used is from Motivate International Inc. under this [license](http
 ### Process
 To process all of this data at once (and to practice my SQL skills), I opted for MySql workbench as my processing tool. I first had to download and install MySql Workbench, then I created a table for each month of the year 2021 with the following SQL query: 
 
-
-[insert image here]
+![create_table_query](/images/create_table_query.png)
 
 Afterwards, I created another table `2021_all_trips`, where I then inserted all of my 12 months into this one table via a union query as shown below:
 
