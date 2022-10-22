@@ -74,21 +74,26 @@ Additionally, I updated `ride_distance` to be rounded by 2 decimal places throug
 ---
 ### Analyze
 
-There is a total of 5,132,861 riders in this cleaned data set, with 56% being annual members and 44% casual riders.
+There is a total of 5,132,861 riders in this cleaned data set, with 56% being annual members and 44% as casual riders.
 
-[insert screenshot image here]
+![ridertype_percentages](/images/ridertype_percentages.png)
 
-Furthermore, I looked at the percentages of bike types in this data set with classic bikes taking the lead at 59%, then electric bikes at 37%, and docked bikes 4%. 
+As far as bike types go in this data set, classic bikes take the lead at 59%, then electric bikes coming in at 37%, along with docked bikes being 4% of the total number of riders. 
 
-[insert screenshot image here]
+![biketype_percentages](/images/biketype_percentages.png)
 
-I examined the top 10 most popular stations for these riders with the number 1 spot being a blank value. I decided not to delete rows associated with the blank station name because if deleted 11% of my total data would be lost. I do not consider this bad data either as the goal is to examine how casual riders and annual members differ, and I believe there are more important aspects than the name of stations that have little to do with riders. I would like to point out that I wish to fill in the names of these stations in the future using the longitutde and latitude values provided, but because of the complexity of exact geological coordinates, I do not have the skills at the moment to resolve this missing data. 
+I examined the top 10 most popular stations, but the number 1 spot is a blank value. I decided not to delete these rows associated with the blank station name because, if deleted, 11% of my total data would be lost. 
 
+I do not consider this to be bad data either, as the job tasked to me was to examine how casual riders and annual members differ, and I do believe there are more important aspects of ride length, ride distance, day of week, and monthly trends; having the start station name be blank, in my opinion, does not take precedence over other fields. [I would like to point out that I wish to fill in the names of these stations in the future using the longitutde and latitude values provided, but because of the complexity of exact geological coordinates, I do not have the skills at the moment to resolve this missing data.] 
 
-[insert screenshot image here]
+![top_10_stations](/images/top_10_stations.png)
 
 Next, I explored the most popular stations by rider status: 
 
-[insert screenshot image here]
+![top_10_stations_members](/images/top_10_stations_members.png)
 
-Afterwards, I proceeded to analyze the average distances and durations between casual riders and annual members, but I found an interesting discovery. Casual riders have a higher average for riding longer than annual members. I 
+![top_10_stations_casual](/images/top_10_stations_casual.png)
+
+Afterwards, I proceeded to analyze the average distances and durations between casual riders and annual members, but I found an interesting discovery instead: casual riders have a higher average for riding longer than annual members. 
+
+![average_ride_distance-duration](/images/average_ride_distance-duration.png)
