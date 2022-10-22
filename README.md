@@ -123,4 +123,6 @@ I ran into another issue, however, in that my ride duration for casual riders is
 
 This is the steps I took to attempt to solve the problem: 
 
-![]()
+![ride_duration_steps](/images/ride_duration_steps.png)
+
+I realized that the issue was in the data itself, in which a rider would take almost 24 hours to ride 0.27 miles, whereas another rider would take about two hours to ride 5.42 miles. 
