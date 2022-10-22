@@ -106,8 +106,8 @@ I then took a small series of steps to find the solution by going back and forth
 
 ![ride_distance_6000](/images/ride_distance_6000.png)
 
-Additionally, both tables have the same amount of rows where the ride distances are greater than 100 (2076), which since the number will not affect my overall analysis, I decided to delete them. 
+Additionally, both tables have the same amount of rows where the ride distances are greater than 100 (2076) which I verified through the log files. Since the number will not affect my overall analysis, I decided to delete them. 
 
-![all_trips_ride_distance_6000](/all_trips_ride_distance_6000.png)
+![all_trips_ride_distance_6000](/images/all_trips_ride_distance_6000.png)
 
-![trips_analyzed_ride_distance_6000](/trips_analyzed_ride_distance_6000.png)
+![trips_analyzed_ride_distance_6000](/images/trips_analyzed_ride_distance_6000.png)
