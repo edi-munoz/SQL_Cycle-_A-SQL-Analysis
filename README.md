@@ -97,3 +97,7 @@ Next, I explored the most popular stations by rider status:
 Afterwards, I proceeded to analyze the average distances and durations between casual riders and annual members, but I found an interesting discovery instead: casual riders have a higher average for riding longer than annual members. 
 
 ![average_ride_distance-duration](/images/average_ride_distance-duration.png)
+
+To start, I looked at the monthly trends of duration and distance for casual riders to see what if I would find a deviation of sorts. I found that in the month of February, my average distance amounted to 20.25 miles, the highest in the year. 
+
+![monthly_duration-distance_casual]()
