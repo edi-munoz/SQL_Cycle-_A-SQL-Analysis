@@ -37,7 +37,7 @@ To process all of this data at once (and to practice my SQL skills), I opted for
 
 Afterwards, I created another table `2021_all_trips`, where I then inserted all of my 12 months into this one table via a union query as shown below:
 
-[insert image here]
+![union_all_query](/images/union_all_query.png)
 
 With all of my data in one table, I began cleaning. I took these actions
 
