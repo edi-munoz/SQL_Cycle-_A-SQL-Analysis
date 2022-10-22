@@ -100,4 +100,4 @@ Afterwards, I proceeded to analyze the average distances and durations between c
 
 To start, I looked at the monthly trends of duration and distance for casual riders to see what if I would find a deviation of sorts. I found that in the month of February, my average distance amounted to 20.25 miles, the highest in the year. 
 
-![monthly_duration-distance_casual]()
+![monthly_duration-distance_casual](/images/monthly_duration-distance_casual.png)
