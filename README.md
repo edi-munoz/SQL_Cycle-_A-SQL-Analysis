@@ -102,12 +102,17 @@ To start, I looked at the monthly trends of duration and distance for casual rid
 
 ![monthly_duration-distance_casual](/images/monthly_duration-distance_casual.png)
 
-I then took a small series of steps to find the solution by going back and forth between my cleaned data set and my ready for analysis dataset, and I found that both tables contain ride distances of 6000+ miles. 
+I looked into this further by pulling up all values that have a ride distance greater than 100. 
 
 ![ride_distance_6000](/images/ride_distance_6000.png)
 
-Additionally, both tables have the same amount of rows where the ride distances are greater than 100 (2076) which I verified through the log files. Since the number will not affect my overall analysis, I decided to delete them. 
-
+From the log files, I found that both tables have the same amount of rows where the ride distances are greater than 100 (2076). 
 ![all_trips_ride_distance_6000](/images/all_trips_ride_distance_6000.png)
 
 ![trips_analyzed_ride_distance_6000](/images/trips_analyzed_ride_distance_6000.png)
+
+Since the number will not affect my overall analysis, I decided to delete them.  
+
+This screenshot below demonstrates the Sql queries I inputted to address this issue. 
+
+![steps_delete_ride_distance_6000](/images/steps_delete_ride_distance_6000.png)
