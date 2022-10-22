@@ -39,11 +39,7 @@ Afterwards, I created another table `2021_all_trips`, where I then inserted all 
 
 ![union_all_query](/images/union_all_query.png)
 
-With all of my data in one table, I began cleaning. I took these actions
-
-[link to sql query cleaning here] 
-
-to clean my data: 
+With all of my data in one table, I began cleaning. I took these [actions](https://github.com/edi-munoz/SQL_Project/blob/0fa07302908a5ccc7064e2bda6563f399147b927/cleaning_steps.sql) to clean my data: 
 
 - Added a `ride_duration` column and made the column be a `TIMEDIFF` from `ended_at` and `started_at` column
 - Created the `month`, `day_of_week`, and `day` columns from my `started_at` column
