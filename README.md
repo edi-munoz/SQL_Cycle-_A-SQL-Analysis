@@ -125,4 +125,7 @@ This is the steps I took to attempt to solve the problem:
 
 ![ride_duration_steps](/images/ride_duration_steps.png)
 
-I realized that the issue was in the data itself, in which a rider would take almost 24 hours to ride 0.27 miles, whereas another rider would take about two hours to ride 5.42 miles. 
+I realized that the issue was in the data itself, in which a rider would take almost 24 hours to ride 0.27 miles, whereas another rider would take about two hours to ride 5.42 miles. I hypothesize the issue lies in human error on the part of the rider as the rider could have forgotten to close the trip in monitoring their ride distance or the rider could have simply forgot about the trip altogether and came back to end the bike trip. Nonetheless, my job is to point out this observation to Mrs. Lily Moreno or a senior data analyst working with me (if this scenario were real-life), and we would try to come up with a solution. Currently, I cannot think of a way to overcome this issue, so, unfortunately, for the rest of my project, this inconsistency will be included in my analysis. 
+
+For the next step in my analysis, I am looking at the average ride distance and duration by day of week for annual members and casual riders. 
+
