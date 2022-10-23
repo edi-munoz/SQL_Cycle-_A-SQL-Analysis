@@ -31,7 +31,7 @@ The dataset I used is from Motivate International Inc. under this [license](http
 
 ---
 ### Process
-To process all of this data at once (and to practice my SQL skills), I opted for MySql workbench as my processing tool. I first had to download and install MySql Workbench, then I created a table for each month of the year 2021 with the following SQL query: 
+To process all of this data at once (and to practice my SQL skills), I opted for MySQL workbench as my processing tool. I first had to download and install MySQL Workbench, then I created a table for each month of the year 2021 with the following SQL query: 
 
 ![create_table_query](/images/create_table_query.png)
 
@@ -106,14 +106,14 @@ I looked into this further by pulling up all values that have a ride distance gr
 
 ![ride_distance_6000](/images/ride_distance_6000.png)
 
-From the log files, I found that both tables have the same amount of rows where the ride distances are greater than 100 (2076). 
+From the log files, I found that both tables have the same amount of rows where the ride distances are greater than 100 (exactly 2076 rows). 
 ![all_trips_ride_distance_6000](/images/all_trips_ride_distance_6000.png)
 
 ![trips_analyzed_ride_distance_6000](/images/trips_analyzed_ride_distance_6000.png)
 
-Since the number will not affect my overall analysis, I decided to delete them.  
+Since 2076 rows will not affect my overall analysis, I decided to delete them.  
 
-This screenshot below demonstrates the Sql queries I inputted to address this issue. 
+This screenshot below demonstrates the SQL queries I inputted to address this issue. 
 
 ![steps_delete_ride_distance_6000](/images/steps_delete_ride_distance_6000.png)
 
@@ -125,7 +125,7 @@ This is the steps I took to attempt to solve the problem:
 
 ![ride_duration_steps](/images/ride_duration_steps.png)
 
-I realized that the issue was in the data itself, in which a rider would take almost 24 hours to ride 0.27 miles, whereas another rider would take about two hours to ride 5.42 miles. I hypothesize the issue lies in human error on the part of the rider as the rider could have forgotten to close the trip in monitoring their ride distance or the rider could have simply forgot about the trip altogether and came back to end the bike trip. Nonetheless, my job is to point out this observation to Mrs. Lily Moreno or a senior data analyst working with me (if this scenario were real-life), and we would try to come up with a solution. Currently, I cannot think of a way to overcome this issue, so, unfortunately, for the rest of my project, this inconsistency will be included in my analysis. 
+I realized that the issue was in the data itself, in which a rider would take almost 24 hours to ride 0.27 miles, whereas another rider would take about two hours to ride 5.42 miles. I hypothesize the issue lies in human error on the part of the rider as the rider could have forgotten to close the trip in monitoring their ride distance and came back to end the bike trip. Nonetheless, my job is to point out this observation to Mrs. Lily Moreno or a senior data analyst working with me (if this scenario were real-life), and we would try to come up with a solution. Currently, I cannot think of a way to overcome this issue, so, unfortunately, for the rest of my project, this inconsistency will be included in my analysis. 
 
 For the next step in my analysis, I am looking at the average ride distance and duration by day of week for annual members and casual riders. 
 
