@@ -129,3 +129,25 @@ I realized that the issue was in the data itself, in which a rider would take al
 
 For the next step in my analysis, I am looking at the average ride distance and duration by day of week for annual members and casual riders. 
 
+![avg_ride_distance-duration_casual_day_of_week](/images/avg_ride_distance-duration_casual_day_of_week.png)
+
+![avg_ride_distance-duration_member_day_of_week](/images/avg_ride_distance-duration_member_day_of_week.png)
+
+I also take a look at the month-to-month breakdown of average ride distance and duration for rider status.
+
+![avg_ride_distance-duration_casual_month](/images/avg_ride_distance-duration_casual_month.png)
+
+![avg_ride_distance-duration_member_month](/images/avg_ride_distance-duration_member_month.png)
+
+Finally, I examine exactly how many rides take place during the week and month for casual riders and annual members. 
+
+![count_ride_casual_day_of_week](/images/count_ride_casual_day_of_week.png)
+
+![count_ride_member_day_of_week](/images/count_ride_member_day_of_week.png)
+
+![count_ride_casual_month](/images/count_ride_casual_month.png)
+
+![count_ride_member_month](/images/count_ride_member_month.png)
+
+
+
