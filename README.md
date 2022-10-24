@@ -131,23 +131,36 @@ For the next step in my analysis, I am looking at the average ride distance and 
 
 ![avg_ride_distance-duration_casual_day_of_week](/images/avg_ride_distance-duration_casual_day_of_week.png)
 
+Sunday has the highest average for both ride distance and duration. 
+
 ![avg_ride_distance-duration_member_day_of_week](/images/avg_ride_distance-duration_member_day_of_week.png)
 
-I also take a look at the month-to-month breakdown of average ride distance and duration for rider status.
+As far as members go, annual members, on average, ride the longest and furtherest trips on Sunday as well, along with Saturday being the second highest day of the week. 
+
+Here is a look at the month-to-month breakdown of average ride distance and duration for rider status.
 
 ![avg_ride_distance-duration_casual_month](/images/avg_ride_distance-duration_casual_month.png)
 
+Casual riders have the highest average of ride distance in September, but they take longer rides in May. 
+
 ![avg_ride_distance-duration_member_month](/images/avg_ride_distance-duration_member_month.png)
+
+Member riders, on average, bike longer distances in July but take longer lasting rides in February. 
 
 Finally, I examine exactly how many rides take place during the week and month for casual riders and annual members. 
 
 ![count_ride_casual_day_of_week](/images/count_ride_casual_day_of_week.png)
 
+Throughout the year, casual riders' favorite day to ride is on Wednesday. 
+
 ![count_ride_member_day_of_week](/images/count_ride_member_day_of_week.png)
+
+Members also ride more on Wednesday. 
 
 ![count_ride_casual_month](/images/count_ride_casual_month.png)
 
+
+
 ![count_ride_member_month](/images/count_ride_member_month.png)
 
-
-
+Annual members ride the most in July. 
