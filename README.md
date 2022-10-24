@@ -151,16 +151,16 @@ Finally, I examine exactly how many rides take place during the week and month f
 
 ![count_ride_dayweek_casual](/images/count_ride_dayweek_casual.png)
 
-Throughout the year, casual riders' favorite day to ride is on Wednesday. 
+Throughout the year, casual riders' favorite day to ride is on Saturday. 
 
 ![count_ride_dayweek_member](/images/count_ride_dayweek_member.png)
 
-Members also ride more on Wednesday. 
+Members ride more on Wednesday. 
 
 ![count_ride_month_casual](/images/count_ride_month_casual.png)
 
-
+Casual riders ride the most in July. 
 
 ![count_ride_month_member](/images/count_ride_month_member.png)
 
-Annual members ride the most in July. 
+Annual members ride the most in August.
