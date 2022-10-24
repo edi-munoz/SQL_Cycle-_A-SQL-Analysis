@@ -164,3 +164,5 @@ Casual riders ride the most in July.
 ![count_ride_month_member](/images/count_ride_month_member.png)
 
 Annual members ride the most in August.
+
+To view the ready-made analyzed version of this table, click on this link to view it on Dropbox: <https://www.dropbox.com/s/rl5mggbj95ebiqw/2021_trips_analyzed.csv?dl=0>
