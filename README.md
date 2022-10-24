@@ -52,6 +52,8 @@ With all of my data in one table, I began cleaning. I took these [actions](https
 - Filled in station ID's from station names
 - Added a `ride_distance` column and made the column set to `St_Distance_Sphere` between the start and end coordinates and multipled the result by .000621371192 to get the distance in miles
 
+To view the dataset for the combined tables thus far, click on the click to view on Dropbox: <https://www.dropbox.com/s/dxo0jn3rh1xswu7/2021_all_trips.csv?dl=0>
+
 I then proceeded to create another table to prepare for an analysis on the data in the newly created `2021_trips_analyzed` table. 
 
 I altered the table by dropping 
@@ -166,3 +168,4 @@ Casual riders ride the most in July.
 Annual members ride the most in August.
 
 To view the ready-made analyzed version of this table, click on this link to view it on Dropbox: <https://www.dropbox.com/s/rl5mggbj95ebiqw/2021_trips_analyzed.csv?dl=0>
+
