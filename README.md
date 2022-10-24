@@ -149,18 +149,18 @@ Member riders, on average, bike longer distances in July but take longer lasting
 
 Finally, I examine exactly how many rides take place during the week and month for casual riders and annual members. 
 
-![count_ride_casual_day_of_week](/images/count_ride_casual_day_of_week.png)
+![count_ride_dayweek_casual](/images/count_ride_dayweek_casual.png)
 
 Throughout the year, casual riders' favorite day to ride is on Wednesday. 
 
-![count_ride_member_day_of_week](/images/count_ride_member_day_of_week.png)
+![count_ride_dayweek_member](/images/count_ride_dayweek_member.png)
 
 Members also ride more on Wednesday. 
 
-![count_ride_casual_month](/images/count_ride_casual_month.png)
+![count_ride_month_casual](/images/count_ride_month_casual.png)
 
 
 
-![count_ride_member_month](/images/count_ride_member_month.png)
+![count_ride_month_member](/images/count_ride_month_member.png)
 
 Annual members ride the most in July. 
