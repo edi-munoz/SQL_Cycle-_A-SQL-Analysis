@@ -169,3 +169,14 @@ Annual members ride the most in August.
 
 To view the ready-made analyzed version of this table, click on this link to view it on Dropbox: <https://www.dropbox.com/s/rl5mggbj95ebiqw/2021_trips_analyzed.csv?dl=0>
 
+---
+### Share
+
+Here is a link to my tableau dashboard [visualization](https://public.tableau.com/app/profile/eduardo.munoz7841) for this dataset that I created. 
+
+For annual members, I see the trend of the average ride distance between a mile and 2 mile, rising in the months of between May and August; additionally, the most popular months to ride are between May and October with more rides during the week (specifically on Tuesday, Wednesday, and Thursday). Casual riders, I found, consistently ride more on the weekends and in the summer time distances falling between a mile and 1.5 miles. Casual riders, as the name implies, ride casually on the weekends as the weekdays are traditional work days, so of course this demographic would not commit to getting an annual membership. Unlike annual members, casual riders do not spend as much time biking except during their free time in summer, marking the distinction between the two types of riders. 
+
+---
+### Act
+
+I would suggest to Mrs. Lily Moreno that a possible solution to increase annual memberships would be to incentivize casual riders into riding more during Spring or Fall as these seasons are still comfortable times to ride for the average person. There could be a discount for annual memberships if XYZ amount of miles have been traveled as well, along with a referral program in place. For further analysis, I would need a dataset that includes Chicago's station names with their corresponding coordinates to resolve the missing station name. Additionally, for more accurate data that is representative of riders, I would let Mrs. Moreno know about the possibility of human error from riders who may be incorrectly ending their trip as some rides have longer duration with little distance covered.  
