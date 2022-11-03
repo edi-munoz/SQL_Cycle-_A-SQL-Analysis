@@ -174,6 +174,8 @@ To view the ready-made analyzed version of this table, click on this link to vie
 
 Here is a link to my tableau dashboard [visualization](https://public.tableau.com/app/profile/eduardo.munoz7841) for this dataset that I created. 
 
+![dashboard](/images/dashboard.png)
+
 For annual members, I see the trend of the average ride distance between a mile and 2 mile, rising in the months of between May and August; additionally, the most popular months to ride are between May and October with more rides during the week (specifically on Tuesday, Wednesday, and Thursday). Casual riders, I found, consistently ride more on the weekends and in the summer time distances falling between a mile and 1.5 miles. Casual riders, as the name implies, ride casually on the weekends as the weekdays are traditional work days, so of course this demographic would not commit to getting an annual membership. Unlike annual members, casual riders do not spend as much time biking except during their free time in summer, marking the distinction between the two types of riders. 
 
 ---
